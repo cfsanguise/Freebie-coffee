@@ -1,0 +1,43 @@
+@import '../variables';
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    &__leftside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 130px;
+        padding-top: 72px;
+        padding-bottom: 64px;
+    }
+    &__logo {
+        display: block;
+        max-width: 110px;
+        max-height: 110px;
+    }
+    &__bg {
+        position: absolute;
+        z-index: -1;
+        right: 280px;
+    }
+    &__title {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 70px;
+        color: $primary;
+        span {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 54px;
+            color: #F9FBFF;
+            background-color: $accent;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+    }
+}

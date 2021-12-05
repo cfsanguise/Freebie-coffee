@@ -1,0 +1,60 @@
+@import '../variables';
+
+.aside-menu {
+    width: 280px;
+    height: 770px;
+    background-color: $primary;
+    padding-top: 75px;
+    box-sizing: border-box;
+    padding-left: 55px;
+    &__cart {
+        position: relative;
+        &::before {
+            content: '2';
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            background: #C7A17A;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 19px;
+            color: $light-grey;
+            left: 14px;
+            top: -13px;
+        }
+    }
+    &__header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        color: $light-grey;
+        margin-top: 120px;
+    }
+    &__links {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    &__link {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        a {
+            color: $light-grey;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+                padding-left: 10px;
+                transition: 0.3s;
+            }
+        }
+    }
+}

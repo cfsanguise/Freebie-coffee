@@ -1,0 +1,23 @@
+@import './variables';
+
+@import './blocks/header';
+@import './blocks/aside-menu';
+@import './blocks/title';
+@import './blocks/personalized';
+@import './blocks/choose';
+@import './blocks/buttons';
+@import './blocks/item';
+@import './blocks/giftset';
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}

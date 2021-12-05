@@ -1,0 +1,41 @@
+@import '../variables';
+
+.personalized {
+    margin-top: 90px;
+    height: 382px;
+    img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 70px;
+        max-width: 226px;
+        max-height: 46px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    &__title {
+        margin-top: 40px;
+        margin-bottom: 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #232C38;
+    }
+    &__text {
+        margin-bottom: 0;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: $dark-grey;
+    }
+}
